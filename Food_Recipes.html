@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Book</title>
+    <link rel="stylesheet" href="Food_Recipes.css">
+</head>
+<body>
+    
+
+    <main>
+        <section class="hero">
+            <h1>My Recipe Book</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="submit.html">Submit a Recipe</a></li>
+                </ul>
+            </nav>
+            <h2>Discover Delicious Recipes</h2>
+            <p>Explore, cook, and enjoy!</p>
+            <input type="text" id="search" placeholder="Search recipes...">
+            <button onclick="searchRecipes()">Search</button>
+        </section>
+
+        <section class="featured-recipes">
+            <h2>Featured Recipes</h2>
+            <div class="recipe-card">
+                <img src="milk-powder-gulab-jamuns.jpg" alt="Rasgulla">
+                <h3>Rasgulla</h3>
+                <p>Easy and delicious homemade sweet.</p>
+                <button onclick="viewRecipe('recipe1.html')">View Recipe</button>
+            </div>
+            <div class="recipe-card">
+                <img src="shahi-Paneer1-758x683.jpg" alt="Shahi Paneer">
+                <h3>Shahi Paneer</h3>
+                <p>A classic Indian Dish.</p>
+                <button onclick="viewRecipe('recipe2.html')">View Recipe</button>
+            </div>
+            <div class="recipe-card">
+                <img src="aloo-paratha image.jpg" alt="Aloo Paratha">
+                <h3>Aloo Paratha</h3>
+                <p>A crispy and fluffy bread stuffed with potato.</p>
+                <button onclick="viewRecipe('recipe3.html')">View Recipe</button>
+            </div>
+            <div class="recipe-card">
+                <img src="rasmalai image.jpg" alt="rasmalai">
+                <h3>Ras Malai</h3>
+                <p>A classic Indian Dish.</p>
+                <button onclick="viewRecipe('recipe4.html')">View Recipe</button>
+            </div>
+            <div class="recipe-card">
+                <img src="Lassi image.jpg" alt="Lassi">
+                <h3>Lassi</h3>
+                <p>A classic Indian sweet.</p>
+                <button onclick="viewRecipe('recipe5.html')">view Recipe</button>
+            </div>
+            <div class="recipe-card">
+                <img src="Chola-Bhatura.jpg" alt="Chola-Bhatura">
+                <h3>Chola-Bhatura</h3>
+                <p>A delightful dance of spicy chickpeas and fluffy fried bread.</p>
+                <button onclick="viewRecipe('recipe6.html')">view Recipe</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Follow us on social media!</p>
+        <p>&copy; 2024 My Recipe Book. All rights reserved.</p>
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
